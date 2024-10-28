@@ -1,4 +1,4 @@
-PS | foreach {Measure-Command {Ps}} | Measure-Object TotalMilliseconds -Max -Min -Average | tee 9_1.txt
+ps | foreach {Measure-Command {ps}} | Measure-Object TotalMilliseconds -Max -Min -Average | tee 9_2.txt
 
 Count    : 183
 Average  : 2,2532393442623
